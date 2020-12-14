@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Belajar HTML</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="">
+	<style type="text/css">
+		body{
+			background-image: url(gambar.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-color: rgb(236, 236, 236);
+			font-family: 'Poppins', sans-serif;
+			margin: 0px;
+		}
+		.boxbio{
+			background-color: black;
+			border-radius: 30px;
+			color: white;
+			padding: 25px 50px 25px 50px;
+		}
+		.headingjudul{
+			text-align: center;
+		}
+		.imgprofile{
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+			border-radius: 50%;
+			display: block;
+			margin: 20px auto 20px auto;
+		}
+		ul {
+			list-style: circle;
+		}
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		th, td {
+			border: 1px solid rgb(63, 75, 80);
+			padding: 8px;
+		}
+		th {
+			background-color: #2b280f;
+		}
+		a {
+			text-decoration: none;
+			color: rgb(83, 168, 248);
+		}
+		a:hover{
+			color: rgb(35, 99, 218);
+		}
+		.btnprint{
+			padding: 10px 25px 10px 25px;
+			border-radius: 30px;
+			border-color: transparent;
+			background-color: rgb(37 74 88);
+			color: white;
+			font-size: 12;
+			cursor: pointer;
+			float: right;
+			margin-bottom: 20px;
+			margin-top: -20px;
+		}
+		.btnprint:hover{
+			background-color: rgb(100, 184, 218);
+		}
+		.btnprint:focus{
+			outline: 0;
+		}
+	</style>
+</head>
+<body>
+	<div style="background-color: #0000008c;padding: 5% 20% 5% 20%;">
+		<div class="boxbio">
+			<!-- heading -->
+			<h1 class="headingjudul">Biodata Anggota mahasiswa</h1>
+
+			<img class="imgprofile" src="Jellyfish.jpg" alt="gambar hilang">
+			<!-- paragraph -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+			<!-- list -->
+			<ul>
+				<li>
+					Nama : Diki Akbar
+				</li>
+				<li>
+					Umur : 21 Tahun
+				</li>
+				<li>
+					Semester : 5
+				</li>
+			</ul>
+
+			<!-- tabel  -->
+			<table>
+				<thead>
+					<tr>
+						<th>
+							No
+						</th>
+						<th>
+							Nama Sekolah
+						</th>
+						<th>
+							Tahun Lulus
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							1
+						</td>
+						<td>
+							SDN 1 Tamanan
+						</td>
+						<td>
+							2011
+						</td>
+					</tr>
+					<tr>
+						<td>
+							2
+						</td>
+						<td>
+							SMPN 1 Tulungagung
+						</td>
+						<td>
+							2014
+						</td>
+					</tr>
+					<tr>
+						<td>
+							3
+						</td>
+						<td>
+							SMAN 1 Kedungwaru
+						</td>
+						<td>
+							2017
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<br>
+			<br>
+			<a href="https://www.instagram.com/diki.akbr/">ke akun ig saya</a>
+			<button class="btnprint">Print</button>
+		</div>
+	</div>
+</body>
+</html>
