@@ -1,8 +1,8 @@
 # ❓ Tempat Collabs kelompok 1
 
-Karena yg sebenarnya benar adalah yang benar benar sebenarnya benar -Alfian
+<b>Karena yg sebenarnya benar adalah yang benar benar sebenarnya benar</b>
 
-#Collaborator
+<b>#Collaborator</b>
 
 - Alfian J A (http://github.com/Enforeach)
 - Dimas (http://github.com/MiddTzy)
